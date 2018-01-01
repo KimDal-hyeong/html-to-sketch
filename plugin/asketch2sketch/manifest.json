@@ -3,7 +3,7 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "localhost-3000-HTMLtoSketch",
+      "name": "",
       "identifier": "HTMLtoSketch",
       "script": "./asketch2sketch.js"
     }
