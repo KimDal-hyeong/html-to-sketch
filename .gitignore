@@ -1,3 +1,5 @@
 node_modules
 .idea
 build-plugin
+build
+plugin/asketch2sketch/page.asketh.json
