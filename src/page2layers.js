@@ -86,7 +86,7 @@ function pseudoToElement() {
     return elements;
   }
 
-  const selectors = ['input[type=text]', 'input[type=number]', 'input[type=tel]', 'input[type=url]', 'input[type=password]', 'input[type=email]', 'input[type=search]', 'select', 'textarea'];
+  const selectors = ['input[type=submit]', 'input[type=text]', 'input[type=number]', 'input[type=tel]', 'input[type=url]', 'input[type=password]', 'input[type=email]', 'input[type=search]', 'select', 'textarea'];
   const allFields = selectorsToElements(selectors);
 
   Array.from(allFields).forEach(function (elm) {
