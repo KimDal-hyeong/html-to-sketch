@@ -97,7 +97,7 @@ function pseudoToElement() {
 
     virtualField.setAttribute('style', elementStyles.cssText);
 
-    if (elementPlaceholder !== undefined) {
+    if (elementPlaceholder !== '' && elementPlaceholder !== undefined) {
       virtualField.innerText = elementPlaceholder;
       virtualField.style.color = '#9E9E9E';
     }
