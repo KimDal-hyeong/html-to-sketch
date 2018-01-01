@@ -21,7 +21,6 @@ module.exports = async function inject (url) {
 
     await page.evaluate('window.scrollBy(0, document.body.offsetHeight)');
     await page.evaluate('window.scrollBy(0, 0)');
-    await page.waitFor(500);
 
     await page.evaluate(fs.readFileSync('./build/page2layers.bundle.js', 'utf8'));
     const asketchPageJSON = await page.evaluate('page2layers.run()');
