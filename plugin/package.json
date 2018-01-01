@@ -1,0 +1,7 @@
+{
+  "name": "localhost-3000-HTMLtoSketch",
+  "skpm": {
+    "manifest": "asketch2sketch/manifest.json",
+    "main": "../build-plugin/1514815148183/localhost-3000-HTMLtoSketch.sketchplugin"
+  }
+}
